@@ -1,11 +1,3 @@
-/* AB模版网 做最好的织梦整站模板下载网站 */
-/* 模版源码：Www.AdminBuy.Cn */
-/* 仿站：Fang.AdminBuy.Cn */
-/* 图标：Sc.AdminBuy.Cn 专业图标素材网站 */
-/* QQ：9490489 */
-/* 
- *  Owl Carousel - Animate Plugin
- */
 .owl-carousel .animated {
 	-webkit-animation-duration: 1000ms;
 	animation-duration: 1000ms;
@@ -38,9 +30,6 @@
  opacity: 0;
 }
 }
-/* 
- * 	Owl Carousel - Auto Height Plugin
- */
 .owl-height {
 	-webkit-transition: height 500ms ease-in-out;
 	-moz-transition: height 500ms ease-in-out;
@@ -48,9 +37,6 @@
 	-o-transition: height 500ms ease-in-out;
 	transition: height 500ms ease-in-out;
 }
-/* 
- *  Core Owl Carousel CSS File
- */
 .owl-carousel {
 	display: none;
 	width: 100%;
@@ -136,13 +122,9 @@
 .owl-carousel.owl-rtl .owl-item {
 	float: right;
 }
-/* No Js */
 .no-js .owl-carousel {
 	display: block;
 }
-/* 
- * 	Owl Carousel - Lazy Load Plugin
- */
 .owl-carousel .owl-item .owl-lazy {
 	opacity: 0;
 	-webkit-transition: opacity 400ms ease;
@@ -154,9 +136,6 @@
 .owl-carousel .owl-item img {
 	transform-style: preserve-3d;
 }
-/* 
- * 	Owl Carousel - Video Plugin
- */
 .owl-carousel .owl-video-wrapper {
 	position: relative;
 	height: 100%;
