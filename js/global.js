@@ -1,33 +1,4 @@
 $(function () {
-    // 右边边栏脚本
-    $(".aside li").hover(function () {
-        $(this).find(".img1").hide();
-        $(this).find(".img2").show()
-        $(this).children(".ewm").show();
-        $(this).children("div").css({ "display": "block", "opacity": 1 });
-        $(this).children("div").animate({ "right": "60px" });
-    }, function () {
-        $(this).find(".img2").hide();
-        $(this).find(".img1").show();
-        $(this).children(".phone_meassage").animate({ "display": "none", "opacity": 0, "right": "-240px" });
-        $(this).children(".qq_online").animate({ "right": "-127px", "display": "none", "opacity": 0 });
-        $(this).children(".fx").animate({ "right": "-127px", "display": "none", "opacity": 0 });
-        $(this).children(".ewm").hide();
-        $(this).children(".search_box").animate({ "right": "-205px", "display": "none", "opacity": 0 });
-    })
-    $(".fx div").hover(function () {
-        var index = $(this).index() + 1;
-        $(this).find("img").attr("src", "images/sshare" + index + ".png");
-    }, function () {
-        var index = $(this).index() + 1;
-        $(this).find("img").attr("src", "images/share" + index + ".png");
-    })
-    $("#goTopBtn").click(function () {
-        $('body,html').animate({ scrollTop: 0 }, 600);
-    })
-    $(".top").click(function () {
-        $('body,html').animate({ scrollTop: 0 }, 600);
-    })
     // 手机左边弹出菜单
     $(".menu_icon").click(function () {
         $(".black_cloth").show();
