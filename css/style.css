@@ -214,6 +214,12 @@ ul.menu>li:hover .bottom_border {
 .about_main {
     margin-top: 40px;
 }
+.about_main_right_1 {
+    width: 50%;
+    float: right;
+    padding: 0 3%;
+    text-align: right;
+}
 .about_main_right {
     width: 50%;
     height: 500px;
@@ -221,11 +227,19 @@ ul.menu>li:hover .bottom_border {
     background: url(../images/index_11.jpg) center no-repeat;
     background-size: cover;
 }
-.about_main_left {
+.about_main_left { 
     width: 50%;
     float: left;
     padding: 0 3%;
     text-align: right;
+}
+.about_main_left_1 {
+    margin: 50px 0px 100px 100px;
+    width: 40%;
+    height: 500px;
+    float: left;
+    background: url(../images/product/product-6.jpg) top no-repeat;
+    background-size: cover;
 }
 .introduce {
     text-align: left;
