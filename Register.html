@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>达美灯饰 | 登錄</title>
+<link rel="stylesheet" href="./css/Sign_in.css" />
+<body>
+<div class="register-container">
+	<h1>达美灯饰 | 登錄</h1>
+	
+	<div class="connect">
+		<p>歡迎！請註冊</p>
+	</div>
+	
+	<form action="" method="post" id="registerForm">
+		<div>
+			<input type="text" name="username" class="username" placeholder="您的用户名" autocomplete="off"/>
+		</div>
+		<div>
+			<input type="password" name="password" class="password" placeholder="输入密码" oncontextmenu="return false" onpaste="return false" />
+		</div>
+		<div>
+			<input type="password" name="confirm_password" class="confirm_password" placeholder="再次输入密码" oncontextmenu="return false" onpaste="return false" />
+		</div>
+		<div>
+			<input type="text" name="phone_number" class="phone_number" placeholder="输入手机号码" autocomplete="off" id="number"/>
+		</div>
+		<div>
+			<input type="email" name="email" class="email" placeholder="输入邮箱地址" oncontextmenu="return false" onpaste="return false" />
+		</div>
+
+		<button id="submit" type="submit">注 册</button>
+	</form>
+	<a href="Sign_in.html">
+		<button type="button" class="register-tis">已经有账号？</button>
+	</a>
+
+</div>
+<!-- 看板娘-->
+<script src="https://cdn.jsdelivr.net/gh/Fofade/cnblogsThemes/live2dw/lib/L2Dwidget.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Fofade/cnblogsThemes/live2dw/lib/L2Dwidget.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Victoy-Vision/CDN@2.0/message.json"></script>
+<script src="./js/message.js"></script>
+<script>
+    L2Dwidget.init({
+        "model": {
+            "scale": 1,
+            "hHeadPos": 0.5,
+            "vHeadPos": 0.618,
+            "jsonPath": "https://cdn.jsdelivr.net/gh/Victoy-Vision/CDN@1.0/rem/model.json"
+        },
+        "display": {
+            "superSample": 2,
+            "width": 300,
+            "height": 320,
+            "position": "right",
+            "hOffset": 0,
+            "vOffset": -27
+        },
+        "mobile": {
+            "show": true,
+            "scale": 0.5
+        },
+        "react": {
+            "opacityDefault": 0.7,
+            "opacityOnHover": 0.2
+        }
+    });</script>
+<div class="message" style="opacity:0"></div>
+<div id="live2d-widget">
+    <canvas id="live2dcanvas"style="position: fixed; opacity: 1; right: 0px; bottom: 0; z-index: 99999; pointer-events: none；"></canvas>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<!--背景图片自动更换-->
+<script src="js/supersized.3.2.7.min.js"></script>
+<script src="js/supersized-init.js"></script>
+<!--表单验证-->
+<script src="js/jquery.validate.min.js?var1.14.0"></script>
+
+</body>
+</html>
