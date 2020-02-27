@@ -35,15 +35,6 @@ $(document).ready(function(){
 		},
 
 	});
-	// 按钮
-	$(validform());
-	$("#btn").click(function(){
-	    if(validform().form()) {
-	        //通过表单验证，以下编写自己的代码
-	    } else {
-	        //校验不通过，什么都不用做，校验信息已经正常显示在表单上
-	    }
-	});
 	//注册表单验证
 	$("#registerForm").validate({
 		rules:{
