@@ -1053,3 +1053,6 @@ ul.menu>li:hover .bottom_border {
     height: 300px;
     background-color: #FFFFFF;
 }
+.friend_link>a:hover {
+    color: #33FF00;
+}
