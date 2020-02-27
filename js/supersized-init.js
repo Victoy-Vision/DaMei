@@ -22,7 +22,7 @@ jQuery(function($){
         slides             : [    // 幻灯片影像
                                  {image : './images/1.jpg'},
                                  {image : './images/2.jpg'},
-                                 {image : './images/3.jpg'}
+                                 {image : './images/3.jpg'},
                        ]
 
     });
