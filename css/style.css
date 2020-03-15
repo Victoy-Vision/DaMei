@@ -87,7 +87,7 @@ ul.menu>li:hover .bottom_border {
     background: url(../images/opacity.png) repeat;
 }
 .menu_2 li a {
-    color: #33FF00;
+    color: #FFFFFF;
     display: block;
 }
 .menu_2 li:hover a {
@@ -1055,4 +1055,8 @@ ul.menu>li:hover .bottom_border {
 }
 .friend_link>a:hover {
     color: #33FF00;
+}
+.details {
+    width: 50%;
+    margin: 0 auto;
 }
