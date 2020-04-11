@@ -33,7 +33,11 @@ $(document).ready(function(){
 				maxlength:"密码至多为32个字符",
 			},
 		},
-
+	//表单全部校验后执行
+	submitHandler:
+		function(){
+			location.href="https://victoy-vision.github.io/DaMei/index.html";
+		},
 	});
 	//注册表单验证
 	$("#registerForm").validate({
@@ -98,8 +102,8 @@ $(document).ready(function(){
 	//表单全部校验后执行
 	submitHandler:
 		function(){
-			location.href="https://victoy-vision.github.io/DaMei/index.html";
-		}
+			location.href="https://victoy-vision.github.io/DaMei/Sign_in.html";
+		},
 	});
 	//添加自定义验证规则
 	jQuery.validator.addMethod("phone_number", function(value, element) { 
