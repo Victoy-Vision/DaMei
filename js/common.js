@@ -98,7 +98,7 @@ $(document).ready(function(){
 	//表单全部校验后执行
 	submitHandler:
 		function(){
-			location.href="https://victoy-vision.github.io/DaMei/";
+			location.href="index.html";
 		}
 	});
 	//添加自定义验证规则
