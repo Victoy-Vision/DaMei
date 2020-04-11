@@ -95,6 +95,11 @@ $(document).ready(function(){
 			},
 		
 		},
+	//表单全部校验后执行
+	submitHandler:
+		function(){
+			location.href="https://victoy-vision.github.io/DaMei/";
+		}
 	});
 	//添加自定义验证规则
 	jQuery.validator.addMethod("phone_number", function(value, element) { 
@@ -103,6 +108,7 @@ $(document).ready(function(){
 		return this.optional(element) || (length == 11 && phone_number.test(value)); 
 	}, "手机号码格式错误"); 
 });
+
 // 鼠标点击特效
 (function(){
             var a_idx = 0;
